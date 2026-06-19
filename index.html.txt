@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loading Promo...</title>
+<script>
+const links = [
+  "https://s.shopee.co.id/1qZmXhymP3",
+  "https://s.shopee.co.id/9AMNH7q95y",
+  "https://s.shopee.co.id/4LH7WA1hIe",
+  "https://s.shopee.co.id/W4Ox1AX8i",
+  "https://omg10.com/4/11146508"
+];
+
+window.onload = function() {
+    const random = Math.floor(Math.random() * links.length);
+    window.location.replace(links[random]);
+}
+</script>
+</head>
+<body>
+<center>
+<h2>Mengalihkan ke Promo Terbaik...</h2>
+<p>Mohon tunggu beberapa detik.</p>
+</center>
+</body>
+</html>
